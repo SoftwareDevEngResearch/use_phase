@@ -4,19 +4,20 @@ Created on Wed Apr 29 16:55:39 2020
 
 @author: melis
 """
-#getting lower limits
-product_name=input("Please enter the name of the product: "/n)
-product_min_use_amount_day=input('Please enter the minimum amount of time a user would use this product each time it is used: '/n)
-product_min_use_amount_week=input('Please enter the minimum amount of time a user would use this product a week, ignore if you use it less than once a week'/n)
-product_min_use_amount_month=input('If your product is used less than once a week, enter the minimum number of times a year it is used)
+#doing yaml stuff
+import yaml
+with open (r ')
+    use_case= yaml.load(file, loader-yaml.FullLoader)
+    print(use_case)
 
-#getting average
-product_avg_use_amount_day=input('Please enter the average amount of time a user would use this product each time it is used: '/n)
-product_avg_use_amount_week=input('Please enter the average amount of time a user would use this product a week, ignore if you use it less than once a week'/n)
-product_avg_use_amount_month=input('If your product is used less than once a week, enter the average number of times a year it is used)
+#need calculations done to get total values
+min_use_1=min_time_per_use*min_use_per_month*12
+max_use_1=max_time_per_use*max_use_per_month*12
+average_use_1=(min_use_1+max_use_1)/2*env_impact
+stdev_1=(min_use_1+max_use_1)/6*env_impact
 
-#getting upper limits
-product_max_use_amount_day=input('Please enter the maximum amount of time a user would use this product each time it is used: '/n)
-product_max_use_amount_week=input('Please enter the maximum amount of time a user would use this product a week, ignore if you use it less than once a week'/n)
-product_max_use_amount_month=input('If your product is used less than once a week, enter the maximum number of times a year it is used)
-
+#need mu and sigma foro everything
+use_1= np.random.normal(average_use_1, stdev_1, 1000)
+    
+#sum evrythin
+total_use=use_1

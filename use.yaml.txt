@@ -1,0 +1,11 @@
+# use.yaml file
+
+product_name:
+consumable_name:
+consumable_impact:
+
+min_time_per_use:
+min_use_per_month:
+
+max_time_per_use:
+max_use_per_month:
