@@ -1,2 +1,2 @@
 # use_phase
-looking at the environmental impact of products during their use phase
+The purpose of this work is to look at the environmental impact of products during their use phase. Using a YAML for the inputs, you must enter the mean, standard deviation, and environmental impact of the consumables of a product into the YAML and insure the name of the YAML matches. Currently it is prepopulated with the environmental impact score from SustainableMinds, so the user just needs to include the information on the use.
