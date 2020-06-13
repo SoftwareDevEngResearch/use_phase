@@ -1,0 +1,23 @@
+---
+water: .00165
+water_avg_use: 100
+water_std: 20
+electricity: .842
+elect_avg_use: 5
+elect_std: 2
+diesel: .25
+diesel_avg_use: 0
+diesel_std: 0
+gas: 11.23
+gas_avg_use: 0
+gas_std: 0
+al: 5.705
+al_avg_use: 0
+al_std: 0
+steel: 2.483
+steel_avg_use: 0
+steel_std: 0
+HDPE: .595
+HDPE_avg_use: 5
+HDPE_std: 2
+...
